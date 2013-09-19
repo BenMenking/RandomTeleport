@@ -1,0 +1,27 @@
+name: RandomTeleport
+main: net.menking.ben.mc.utils.Randomteleport
+description: Provides random teleport command using WorldBorder
+author: alter_vue <ben@menking.net>
+version: 0.9
+commands:
+  rp:
+    description: Random teleport
+    usage: /rp [reload]
+softdepend: [WorldGuard, Multiverse-Core]
+
+permissions:
+  randomport.rp:
+    description: Allows a user to user random teleport command
+  randomport.bypass.cooldown:
+    description: Bypasses cool down timer for user
+  randomport.reload:
+    description: Allows randomport config to be reloaded
+
+
+# version 0.5: added bypass and reload
+# version 0.6: fixed "Sorry you don't have permission"
+# v 0.7: fixed dropping players into ocean and inside caverns
+# v0.8: added chunk preloading before teleporting player
+# v0.9: no additional features
+
+    

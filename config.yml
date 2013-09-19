@@ -1,0 +1,12 @@
+#
+# this is the minimum number of blocks from the border a player can teleport to
+#
+set-back: 15
+
+#
+# controls how quickly a player can random teleport
+#
+cool-down-seconds: 30
+
+# debug
+debug: off
